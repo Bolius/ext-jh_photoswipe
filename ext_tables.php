@@ -29,7 +29,7 @@ $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$pluginSi
 
 // Add special mfp palette
 $GLOBALS['TCA']['sys_file_reference']['palettes']['jhPhotoswipePalette'] = array(
-    'showitem' => 'title, author;;;;3-3-3,--linebreak--, description',
+    'showitem' => 'title, author;;;;3-3-3,--linebreak--, description, crop',
     'canNotCollapse' => true
 );
 
